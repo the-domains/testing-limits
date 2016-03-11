@@ -1,14 +1,26 @@
-layout_spectrum: 1
-typography_spectrum: 0.5107411
 color:
   saturation: 0.6536863
-  lightness: 0.5741138
   brandStrength: 0.8265306
+  rhythmicContrast: 0.2089151
   brandColors:
     - '#161E27'
     - '#78ABE0'
     - '#4C6389'
     - '#CFAD87'
     - '#CF4954'
-  rhythmicContrast: 0.2089151
+  lightness: 0.5741138
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    permalink:
+      path: '/:title/'
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
+layout_spectrum: 1
+typography_spectrum: 0.5107411
 name: Testing Limits
